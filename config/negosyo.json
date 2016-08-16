@@ -1,0 +1,20 @@
+{
+    "subServiceId":"0028002000006823",
+    "ari":{
+        "host":"192.168.99.100",
+        "port":"8088",
+        "username":"joe",
+        "password":"password123"
+    },
+    "database":{
+        "host":"mongo",
+        "port":27017,
+        "schema":"infovas",
+        "username":"some-username",
+        "password":"some-password"
+    },
+    "logFile":"/var/log/negosyo.log",
+    "freeContentCount": 3,
+    "whitelist":["7002","6001"],
+    "enableWhitelist":true
+}

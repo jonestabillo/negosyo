@@ -1,0 +1,15 @@
+{
+    "name": "negosyo",
+    "version": "1.0.0",
+    "description": "Negosyo Serye Service",
+    "author": "Jonathan Estabillo <jonathan.estabillo@glyphstudios.com>",
+    "main": "public/endpoint.js",
+    "scripts": {
+        "start": "nodemon -L public/endpoint.js"
+    },
+    "dependencies": {
+        "nodemon": "latest",
+        "ari-client": "latest",
+        "util": "latest"
+    }
+}

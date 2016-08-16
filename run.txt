@@ -1,0 +1,16 @@
+docker run \
+--link mongo:mongo \
+--link asterisk:asterisk \
+-v /c/Users/Joe/projects/negosyo/config:/usr/src/app/public/config \
+-v /c/Users/Joe/projects/negosyo/src:/usr/src/app/public \
+-v /c/Users/Joe/projects/negosyo/log:/var/log \
+-p 80:80 \
+--name negosyo -d -t negosyo
+
+docker run \
+--link mongo:mongo \
+-v /c/Users/Joe/projects/negosyo/config:/usr/src/app/public/config \
+-v /c/Users/Joe/projects/negosyo/src:/usr/src/app/public \
+-v /c/Users/Joe/projects/negosyo/log:/var/log \
+-p 8950:8950 \
+--name negosyo -d -t negosyo

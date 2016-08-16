@@ -1,0 +1,18 @@
+{
+"serviceName" : "Negosyo Serye",
+"subServiceId" : "0028002000006823",
+"subProductId" : "1000018834",
+"pullServiceId" : "0028002000006823",
+"pullProductId" : "1000018834",
+"notifyProductId": "1000018836",
+"medias":[
+{"productType" : "ivr", "contentType" : "audio/alaw", "location" : "negosyo/Session01_BuildYourSuki", "active" : true },
+{"productType" : "ivr", "contentType" : "audio/alaw", "location" : "negosyo/Session02_BeUpdated", "active" : true },
+{"productType" : "ivr", "contentType" : "audio/alaw", "location" : "negosyo/Session03_UpSelling", "active" : true },
+{"productType" : "ivr", "contentType" : "audio/alaw", "location" : "negosyo/Session04_WhenToUpSell", "active" : true },
+{"productType" : "ivr", "contentType" : "audio/alaw", "location" : "negosyo/Session05_MagtabiNgAdditionalPuhunan", "active" : true },
+{"productType" : "ivr", "contentType" : "audio/alaw", "location" : "negosyo/Session06_PalagiDapatMayStock", "active" : true },
+{"productType" : "ivr", "contentType" : "audio/alaw", "location" : "negosyo/Session07_WagMangutang", "active" : true }
+],
+"active" : true
+}
